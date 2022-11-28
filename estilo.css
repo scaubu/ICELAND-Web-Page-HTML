@@ -1,0 +1,163 @@
+body {
+    background-color: chocolate;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin: 0;
+}
+
+header {
+    padding: 16px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    position: fixed;
+    background-color: grey;
+}
+
+header a {
+    text-decoration: none;
+}
+
+.contenedor {
+    width: 85%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+
+
+.navegacion ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navegacion ul li {
+    display: inline-block;
+}
+
+.navegacion ul li a {
+    display: block;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+}
+
+.navegacion ul li a:hover {
+    background-color: white;
+}
+
+.contenedor-footer small {
+    font-size: 15px;
+}
+
+.contenedor-historia {
+    background-image: url(./img/imagen\ 4\ helados.jpg);
+    background-repeat: no-repeat;
+    min-height: 400px;
+    max-width: 1300px;
+
+}
+
+.contenedor-historia h1 {
+    text-align: center;
+}
+
+.contenedor-historia i {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contedor-logo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1400px;
+}
+
+.logo img {
+    width: 200px;
+}
+
+main {
+    padding-top: 11rem;
+}
+
+.contenedor {
+    width: 85%;
+    max-width: 850px;
+    margin: 0 auto;
+}
+
+.contenedor .index-image {
+    width: 100%;
+    height: 100%;
+}
+
+footer {
+    width: 100%;
+    background-color: grey;
+}
+
+footer .footer-1 {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    padding: 45px;
+}
+
+footer .footer-1 .bloque-footer figure {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .footer-1 .bloque-footer figure img {
+    width: 250px;
+}
+
+footer .footer-1 .bloque-footer h2 {
+    color: #fff;
+    margin-bottom: 25px;
+    font-size: 18px;
+}
+
+footer .footer-1 .bloque-footer p {
+    color: #efefef;
+    margin-bottom: 10px;
+
+    font-size: 18px;
+}
+
+footer .footer-1 .bloque-footer .redes-sociales a {
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    border-radius: 5px;
+    color: #fff;
+    margin-right: 10px;
+    text-align: center;
+
+}
+
+footer .footer-1 .bloque-footer .redes-sociales a:hover {
+    background-color: bisque;
+}
+
+footer .footer-2 {
+    background-color: #4a4a4a;
+    padding: 15px 10px;
+    text-align: center;
+    color: #fff;
+}
+
+footer .footer-2 p { 
+    font-size: 15px;
+}
